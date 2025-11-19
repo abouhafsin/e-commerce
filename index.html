@@ -1,1 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Made In Niger - Le Marché du Futur</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="brand">
+      <div class="logo-circle">MN</div>
+      <div>
+        <span class="brand-name">Made In Niger</span>
+        <p class="brand-subtitle">Le Marché du Futur</p>
+      </div>
+    </div>
+    <div class="nav-links">
+      <a href="#hero">Accueil</a>
+      <div class="dropdown">
+        <button class="dropdown-toggle">Catégories</button>
+        <div class="dropdown-menu">
+          <a href="#artisanat">Artisanat</a>
+          <a href="#agricole">Produits Agricoles</a>
+          <a href="#elevage">Élevage</a>
+        </div>
+      </div>
+      <a href="#a-propos">À propos</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-icon" href="#panier" aria-label="Panier">🛒</a>
+      <a class="btn-outline" href="#inscription">S'inscrire</a>
+    </div>
+  </nav>
 
+  <header id="hero" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-kicker">Authentique • Durable • Souverain</p>
+      <h1>Découvrez les trésors du Niger, livrés partout</h1>
+      <p class="hero-text">Une vitrine digitale pour valoriser le cuir d'Agadez, les tissages de Zinder, les céréales du fleuve et les élevages sahéliens. Achetez local, soutenez les artisans et producteurs qui innovent pour demain.</p>
+      <form class="search-bar">
+        <input type="text" placeholder="Rechercher un produit, une coopérative ou une région..." aria-label="Rechercher">
+        <button type="submit">Rechercher</button>
+      </form>
+      <div class="hero-actions">
+        <a class="btn-primary" href="#artisanat">Explorer les nouveautés</a>
+        <a class="btn-secondary" href="#agricole">Voir les coopératives</a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <span class="stat-number">250+</span>
+          <span class="stat-label">Artisans certifiés</span>
+        </div>
+        <div>
+          <span class="stat-number">5000+</span>
+          <span class="stat-label">Produits locaux</span>
+        </div>
+        <div>
+          <span class="stat-number">100%</span>
+          <span class="stat-label">Traçabilité & impact</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="artisanat" class="section">
+      <div class="section-heading">
+        <p class="section-kicker">Savoir-faire Sahélien</p>
+        <h2>Produits Artisanaux</h2>
+        <p class="section-lead">Cuir travaillé à la main, bijoux touaregs, tissages colorés et objets de décoration qui racontent nos traditions.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-text">
+          <h3>Des créations uniques, éthiques et modernes</h3>
+          <p>Chaque pièce est réalisée par des maîtres artisans d'Agadez, Tahoua ou Zinder. Nous garantissons une rémunération juste et un design pensé pour s'intégrer dans des univers contemporains.</p>
+          <ul>
+            <li>👜 Cuir tanné végétalement et maroquinerie premium</li>
+            <li>💍 Argent touareg et motifs traditionnels revisités</li>
+            <li>🎨 Pièces numérotées et livrées avec certificat</li>
+          </ul>
+          <a class="link-cta" href="#">Visitez la page Artisanat →</a>
+        </div>
+        <div class="feature-media">
+          <img src="https://images.unsplash.com/photo-1523419400524-fd0c95f6e3e6?auto=format&fit=crop&w=900&q=80" alt="Atelier d'artisan maroquinier au Niger">
+        </div>
+      </div>
+    </section>
+
+    <section id="agricole" class="section alt">
+      <div class="section-heading">
+        <p class="section-kicker">Terres Fertiles</p>
+        <h2>Produits Agricoles</h2>
+        <p class="section-lead">Céréales du fleuve Niger, fruits du Sahel, dérivés du moringa et du sésame issus d'une agriculture raisonnée.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-text">
+          <h3>Une filière responsable et traçable</h3>
+          <p>Nous travaillons avec des coopératives féminines et des agriculteurs engagés dans l'agroécologie. Les produits sont conditionnés localement pour maximiser la valeur ajoutée.</p>
+          <ul>
+            <li>🌾 Mil, sorgho, fonio et riz du fleuve</li>
+            <li>🌿 Moringa, sésame, arachide et huiles pressées à froid</li>
+            <li>🥭 Fruits séchés et confitures artisanales</li>
+          </ul>
+          <a class="link-cta" href="#">Visitez la page Produits Agricoles →</a>
+        </div>
+        <div class="feature-media">
+          <img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=900&q=80" alt="Productrice de céréales locales au Niger">
+        </div>
+      </div>
+    </section>
+
+    <section id="elevage" class="section">
+      <div class="section-heading">
+        <p class="section-kicker">Élevage & Nature</p>
+        <h2>Produits de l'Élevage</h2>
+        <p class="section-lead">Viandes rouges et blanches, fromages de chèvre, lait caillé et cuirs issus d'élevages pastoraux responsables.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-text">
+          <h3>Qualité sahélienne, circuits courts</h3>
+          <p>Nos partenariats avec les éleveurs nomades garantissent des produits respectueux du bien-être animal. La chaîne du froid est assurée pour des livraisons fiables.</p>
+          <ul>
+            <li>🥛 Lait, fromage frais et yaourts locaux</li>
+            <li>🥩 Viandes labellisées, traçables jusqu'au cheptel</li>
+            <li>🧴 Cuirs et peaux valorisés pour la maroquinerie</li>
+          </ul>
+          <a class="link-cta" href="#">Visitez la page Élevage →</a>
+        </div>
+        <div class="feature-media">
+          <img src="https://images.unsplash.com/photo-1459454202806-509ed2d6f352?auto=format&fit=crop&w=900&q=80" alt="Éleveurs nomades avec troupeau dans le Sahel">
+        </div>
+      </div>
+    </section>
+
+    <section id="a-propos" class="section alt">
+      <div class="about-grid">
+        <div>
+          <p class="section-kicker">Notre mission</p>
+          <h2>Un marché qui valorise le talent local</h2>
+          <p class="section-lead">Nous connectons artisans, agriculteurs et éleveurs à un public national et international, grâce à une plateforme moderne, sécurisée et pensée pour raconter leurs histoires.</p>
+          <div class="pillars">
+            <div>
+              <h4>Impact</h4>
+              <p>Plus de revenus pour les producteurs, moins d'intermédiaires.</p>
+            </div>
+            <div>
+              <h4>Durabilité</h4>
+              <p>Matériaux locaux, procédés éthiques et logistique optimisée.</p>
+            </div>
+            <div>
+              <h4>Innovation</h4>
+              <p>Traçabilité, paiement mobile et storytelling immersif.</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-card">
+          <p class="about-label">Made in Niger</p>
+          <h3>Votre vitrine pour le futur</h3>
+          <p>Une interface claire, des collections éditorialisées et des campagnes qui mettent en avant la fierté nigérienne.</p>
+          <div class="badges">
+            <span>Livraison nationale</span>
+            <span>Packshots de qualité</span>
+            <span>Conseils marketing</span>
+          </div>
+          <a class="btn-primary" href="#contact">Parler à un conseiller</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="footer">
+    <div>
+      <h4>Made In Niger</h4>
+      <p>Une marketplace qui propulse les talents du pays et renforce l'économie circulaire.</p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p>support@madeinniger.ne<br>+227 90 00 00 00</p>
+    </div>
+    <div>
+      <h4>Suivez-nous</h4>
+      <p>Instagram • Facebook • TikTok • LinkedIn</p>
+    </div>
+  </footer>
+</body>
+</html>
